@@ -1,0 +1,13 @@
+{
+  "partiVersion": "0.1.0",
+  "protocolVersion": 1,
+  "id": "monopoly-12",
+  "name": "Monopoly 12 Jugadores",
+  "version": "1.5.0",
+  "packageMode": "blob",
+  "description": "Monopoly completo para hasta 12 jugadores",
+  "entry": { "ui": "index.html", "worker": "room.worker.js" },
+  "room": { "minPlayers": 2, "maxPlayers": 12 },
+  "sync": { "mode": "snapshot" },
+  "permissions": { "network": false, "storage": "session", "sensors": [] }
+}
